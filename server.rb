@@ -1,6 +1,4 @@
 require 'sinatra'
-require 'pry'
-require 'sinatra/contrib'
 require 'sanitize'
 
 get '/' do
