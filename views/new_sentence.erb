@@ -1,0 +1,16 @@
+<h2>Your new sentence:</h2>
+
+<h2 class="sentence"><%= @new_sentence.gsub("its", "it is").gsub("it's", "it is").gsub("It's", "It is").gsub("Its", "It is")%></h2>
+
+<div class="sentence">
+<h2>Does the new sentence make sense?</h2>
+</div>
+
+<div>
+  <a href="/yes">
+<button class="myButton">Yes</button>
+</a>
+  <a href="/no">
+<button class="myButton">No</button>
+</a>
+</div>
